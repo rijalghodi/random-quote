@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap|Inter");
+:root {
+  --default-color: #444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: var(--default-color);
+  color: var(--default-color);
+  font-family: "Libre Bodoni", Inter, sans-serif, monospace;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  width: 450px;
+  font-family: Inter;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+#quote-box {
+  border-radius: 25px 2px 25px 2px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  background-color: #fff;
+  display: table;
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+#quote-box .quote-text i {
+  font-size: 2rem;
+  margin-right: 0.4em;
+}
+#quote-box .quote-author {
+  margin-top: 15px;
+  width: 450px;
+  font-family: Inter;
+  height: auto;
+  clear: both;
+  font-size: 1.1rem;
+  text-align: right;
+}
+#quote-box .buttons {
+  width: 450px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+#quote-box .buttons .button {
+  height: 40px;
+  background-color: var(--default-color);
+  border-style: none;
+  color: #fff;
+  border-radius: 2px;
+}
+#quote-box .buttons .button:hover {
+  transform: translateY(-3px);
+  box-shadow: -3px 3px 2px 0 #444;
+}
+#quote-box .buttons .button#tweet-quote {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 40px;
+  width: 40px;
+}
+#quote-box .buttons .button#new-quote {
+  font-size: 1.1rem;
+  padding: 0.5rem 0.9rem;
+}/*# sourceMappingURL=styles.css.map */
