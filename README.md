@@ -22,3 +22,5 @@ Or simply click [this link](https://rijalghodi.github.io/random-quote/) to see t
 
 - Javascript DOM
 - Event and Event handler
+- jQuery
+- Sass
